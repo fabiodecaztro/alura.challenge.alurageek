@@ -1,0 +1,93 @@
+body {
+    width: 1440px;
+    padding: 10px 10px;
+    font-family: Releway, sans-serif;
+    font-size: 16px;
+}
+
+body .topo {
+    position: relative;
+    margin: 0 auto;
+    height: 467px;
+}
+
+.topo .barra-pesquisa {
+    width: 1136px;
+    height: 115px;
+    margin: 0 auto;
+}
+
+.barra-pesquisa .logo {
+    margin: 32px 0;
+}
+
+.barra-pesquisa .pesquisa {
+    position: absolute;
+    top: 38px;
+    left: 360px;
+    font-size: 14px;
+    text-indent: 30px;
+    width: 393px;
+    height: 40px;
+    border: transparent;
+    border-radius: 20px;
+    background: #F5F5F5;
+}
+
+.barra-pesquisa .img-lupa {
+    position: absolute;
+    top: 50px;
+    left: 710px;
+    background: transparent;
+}
+
+.barra-pesquisa button {
+    float: right;
+    width: 182px;
+    height: 51px;
+    border: transparent;
+    border: 1px solid #2a7ae4;
+    color: #2a7ae4;
+    font-size: 16px;
+    margin-top: 32px;
+}
+
+.banner-promo {
+    position: relative;
+}
+
+.banner-promo img {
+    display: block;
+    margin: 0 auto;    
+}
+
+.banner-promo h1 {
+    position: absolute;
+    top: 155px;
+    left: 138px;
+    font-size: 52px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+}
+
+.banner-promo h2 {
+    position: absolute;
+    top: 223px;
+    left: 138px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #FFFFFF;   
+}
+
+.banner-promo button {
+    font-size: 16px;
+    color: #FFFFFF;
+    position: absolute;
+    left: 138px;
+    top: 265px;
+    border: transparent;
+    background: #2A7AE4;
+    width: 130px;
+    height: 51px;
+}
