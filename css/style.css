@@ -3,12 +3,14 @@ body {
     padding: 10px 10px;
     font-family: Releway, sans-serif;
     font-size: 16px;
+    background: #F5F5F5;
 }
 
 body .topo {
     position: relative;
     margin: 0 auto;
     height: 467px;
+    background: #FFFFFF
 }
 
 .topo .barra-pesquisa {
@@ -91,3 +93,93 @@ body .topo {
     width: 130px;
     height: 51px;
 }
+/* __________________________________________________ */
+
+main {
+    /* background: #F5F5F5; */
+}
+
+#secao .cabecalho {
+    height: 38px;
+    width: 1133px;
+    margin: 64px auto 16px auto;
+}
+
+.cabecalho h2 {
+    display: inline;
+    position: relative;
+    top: 3px;
+    font-size: 32px;
+    font-weight: bold;
+    color: #464646;
+}
+
+.cabecalho button {
+    float: right;
+    width: 98px;
+    height: 24px;
+    margin-top: 7px;
+    display: inline;
+    color: #2a7ae4;
+    font-size: 16px;
+    font-weight: bold;
+    border: transparent;
+    background: transparent;
+    padding: 0;
+}
+
+button img {
+    position: relative;
+    top: 2px;
+    float: right;
+}
+
+#secao .linha-produto {
+    width: 1133px;
+    margin: 0 auto;
+}
+
+.linha-produto #retorno {
+    margin-left: 0;
+}
+
+.linha-produto .produto {
+    position: relative;
+    display: inline-block;
+    width: 176px;
+    height: 252px;
+    margin-left: 10px;
+}
+
+.produto .p {
+    width: 176px;
+    color: #464646;
+}
+.produto .id-produto {
+    position: absolute;
+    top: 182px;
+    height: 16px;
+    font-size: 14px;
+}
+
+.produto .valor {
+    position: absolute;
+    top: 206px;
+    height: 19px;
+    font-size: 16;
+    font-weight: bold;
+}
+
+.produto a {
+    position: absolute;
+    top: 233px;
+    left: 0;
+    color: #2A7AE4;
+    height: 19px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+
+
+
