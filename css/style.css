@@ -1,11 +1,12 @@
 body {
     width: 1440px;
     padding: 10px 10px;
-    font-family: Releway, sans-serif;
+    font-family: Raleway, sans-serif;
     font-size: 16px;
     background: #F5F5F5;
 }
 
+/*HEADER*/
 body .topo {
     position: relative;
     margin: 0 auto;
@@ -93,12 +94,8 @@ body .topo {
     width: 130px;
     height: 51px;
 }
-/* __________________________________________________ */
 
-main {
-    /* background: #F5F5F5; */
-}
-
+/*MAIN*/
 #secao .cabecalho {
     height: 38px;
     width: 1133px;
@@ -127,6 +124,12 @@ main {
     background: transparent;
     padding: 0;
 }
+
+/*PESSOAL**********************/
+.cabecalho button:hover {
+    text-decoration: underline;
+}
+/******************************/
 
 button img {
     position: relative;
@@ -180,6 +183,146 @@ button img {
     text-decoration: none;
 }
 
+/*PESSOAL**********************/
+.produto a:hover {
+    text-decoration: underline;
+}
+/******************************/
 
+/*FOOTER*/
+footer .rodape {
+    position: relative;
+    height: 368px;
+    background: #eaf2fd;
+    margin-top: 64px;
+}
 
+footer .contato {
+    position: absolute;
+    left: 152px;
+    height: 240px;
+}
 
+.contato img {
+    margin-top: 64px;
+}
+
+.contato .links-internos {
+    position: absolute;
+    top: 64px;
+    left: 288px;
+    display: grid;
+    align-content: space-between;
+    width: 176px;
+    height: 234px;
+    font-size: 16px;
+}
+
+.links-internos a {
+    text-decoration: none;
+    color: #464646;
+}
+/*PESSOAL**********************/
+.links-internos a:hover {
+    color: #2a7ae4;
+    text-decoration: underline;
+}
+/******************************/
+
+.contato .fale-conosco {
+    position: absolute;
+    top: 64px;
+    left: 576px;
+    width: 560px;
+    height: 240px;
+
+}
+
+.fale-conosco p {
+    font-size: 16px;
+    font-weight: bold;
+    color: #464646;
+}
+
+.fale-conosco .grupo-nome {
+    position: absolute;
+    top: 27px;
+    width: 560px;
+    height: 56px;
+    background: #FFFFFF;
+    border-radius: 4px;
+    border-bottom: 1px solid #c8c8c8;
+}
+
+.fale-conosco .label-identificacao {
+    position: absolute;
+    top: 8px;
+    left: 12px;
+    width: 536px;
+    height: 16px;
+    font-size: 12px;
+    font-weight: 100;
+    color: #a2a2a2;
+    display: flex;
+    align-items: center;
+}
+
+.fale-conosco .entrada-info {
+    position: absolute;
+    top: 28px;
+    left: 12px;
+    width: 536px;
+    height: 20px;
+    background: transparent;
+    border: transparent;
+    outline: 0;
+    padding: 0;
+    font-family: Raleway, sans-serif;
+    color: #464646;
+}
+
+.fale-conosco .grupo-msg{
+    position: absolute;
+    top: 99px;
+    width: 560px;
+    height: 82px;
+    background: #FFFFFF;
+    border-radius: 4px;
+    border-bottom: 1px solid #c8c8c8;
+}
+
+.grupo-msg #label-msg {
+    font-size: 16px;
+}
+
+.grupo-msg #textarea-msg {
+    height: 45px;
+    resize: none;
+}
+
+.fale-conosco .submit-enviar {
+    position: absolute;
+    top: 189px;
+    width: 165px;
+    height: 51px;
+    font-family: Raleway, sans-serif;
+    font-size: 16px;
+    color: #FFFFFF;
+    background: #2a7ae4;
+    border: transparent;
+    padding: 0;
+}
+
+footer .desenvolvedor {
+    height: 102px;
+    text-align: center;
+}
+
+.desenvolvedor p {
+    display: inline-block;
+    margin-top: 32px;
+    width: 234px;
+    height: 38px;
+    color: #464646;
+    font-size: 16px;
+}
