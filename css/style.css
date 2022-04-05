@@ -1,6 +1,6 @@
 body {
-    width: 1440px;
-    padding: 10px 10px;
+    width: auto;
+    /* padding: 10px 10px; */
     font-family: Raleway, sans-serif;
     font-size: 16px;
     background: #F5F5F5;
@@ -15,7 +15,11 @@ body .topo {
 }
 
 .topo .barra-pesquisa {
+         position: relative; 
+
     width: 1136px;
+    left: auto;
+    right: auto;
     height: 115px;
     margin: 0 auto;
 }
@@ -25,6 +29,7 @@ body .topo {
 }
 
 .barra-pesquisa .pesquisa {
+    padding: 0;
     position: absolute;
     top: 38px;
     left: 360px;
@@ -44,7 +49,14 @@ body .topo {
     background: transparent;
 }
 
-.barra-pesquisa button {
+.barra-pesquisa .img-lupaMobile {
+    display: none;
+    float: right;
+    margin: 27px 16px 0 0;
+}
+
+.barra-pesquisa .btn-login {
+    padding: 0;
     float: right;
     width: 182px;
     height: 51px;
@@ -57,9 +69,12 @@ body .topo {
 
 .banner-promo {
     position: relative;
+    margin: 0 auto;
+    width: 1440px;
 }
 
 .banner-promo img {
+    position: relative;
     display: block;
     margin: 0 auto;    
 }
@@ -67,6 +82,7 @@ body .topo {
 .banner-promo h1 {
     position: absolute;
     top: 155px;
+    /*margin-left: 138px;*/
     left: 138px;
     font-size: 52px;
     font-weight: bold;
@@ -83,16 +99,17 @@ body .topo {
     color: #FFFFFF;   
 }
 
-.banner-promo button {
-    font-size: 16px;
-    color: #FFFFFF;
+.banner-promo .btn-ver-consoles {
     position: absolute;
-    left: 138px;
     top: 265px;
-    border: transparent;
-    background: #2A7AE4;
+    left: 138px;
     width: 130px;
     height: 51px;
+    padding: 0;
+    font-size: 16px;
+    color: #FFFFFF;
+    border: transparent;
+    background: #2A7AE4;
 }
 
 /*MAIN*/
@@ -192,9 +209,10 @@ button img {
 /*FOOTER*/
 footer .rodape {
     position: relative;
+    width: 1440px;
     height: 368px;
+    margin: 64px auto 0 auto;
     background: #eaf2fd;
-    margin-top: 64px;
 }
 
 footer .contato {

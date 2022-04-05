@@ -1,6 +1,0 @@
-@media screen and (max-width: 425px){
-    .barra-pesquisa {
-        height: 115px;
-        background: rgb(84, 125, 136);
-    }
-}   

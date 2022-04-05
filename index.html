@@ -3,12 +3,11 @@
 <html lang="pt-br">
     <head>
         <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1">
-        <title>A.Geek - Home</title>
+        <title>AluraGeek - Home</title>
         <link rel="icon" type="image/x-icon" href="">
         <link rel="stylesheet" type="text/css" href="css/reset.css">
         <link rel="stylesheet" type="text/css" href="css/style.css">
-        <link rel="stylesheet" type="text/css" href="css/responsive-tablet">
-        <link rel="stylesheet" type="text/css" href="css/responsive-smartphone">
+        <link rel="stylesheet" type="text/css" href="css/responsive.css">
     </head>
 
     <body>
@@ -17,14 +16,21 @@
                 <img class="logo" src="img/logo.png">
                 <input class="pesquisa" type="" name="" placeholder="O que deseja encontrar?">
                 <input class="img-lupa" type="image" src="img/lupa.png" name="">
-                <button>Login</button>
+                <input class="img-lupaMobile" type="image" src="img/lupaMobile.png" name="">
+                <button class="btn-login">Login</button>
             </section>
 
             <section class="banner-promo">
-                <img src="img/topo.png">
+                <picture>
+                    <source media="(max-width: 426px)" srcset="img/heroMobile.png">
+                    <source media="(max-width: 768px)" srcset="img/heroTablet.png">
+                    <source media="(min-width: 769px)" srcset="img/heroDesk.png">
+                    <img class="banner" src="img/heroMobile.png">
+                </picture>
+                
                 <h1>Dezembro Promocional</h1>
                 <h2>Produtos selecionados com 33% de desconto</h2>
-                <button>Ver Consoles</button>
+                <button class="btn-ver-consoles">Ver Consoles</button>
             </section>
         </header>
 
@@ -37,7 +43,7 @@
                 </nav>
                 <div class="linha-produto">
                     <div id="retorno" class="produto">
-                        <img src="img/starwars/img1.png">
+                        <img class="banner"src="img/starwars/img1.png">
                         <p class="id-produto">Produto 1</p>
                         <p class="valor">R$ 100,00</p>
                         <a href="">Ver produto</a>
@@ -73,7 +79,7 @@
 
                     <div class="produto">
                         <img src="img/starwars/img6.png">
-                        <p class="id-produto">Produto 6.png</p>
+                        <p class="id-produto">Produto 6</p>
                         <p class="valor">R$ 100,00</p>
                         <a href="">Ver produto</a>
                     </div>
@@ -123,7 +129,7 @@
 
                     <div class="produto">
                         <img src="img/console/img6.png">
-                        <p class="id-produto">Produto 6.png</p>
+                        <p class="id-produto">Produto 6</p>
                         <p class="valor">R$ 100,00</p>
                         <a href="">Ver produto</a>
                     </div>
@@ -173,7 +179,7 @@
 
                     <div class="produto">
                         <img src="img/diversos/img6.png">
-                        <p class="id-produto">Produto 6.png</p>
+                        <p class="id-produto">Produto 6</p>
                         <p class="valor">R$ 100,00</p>
                         <a href="">Ver produto</a>
                     </div>
@@ -223,6 +229,6 @@
 
         </footer>
 
-        <script src=""></script>
+        <script src="js/script.js"></script>
     </body>
 </html>

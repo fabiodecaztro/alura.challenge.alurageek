@@ -1,0 +1,111 @@
+@media screen and (max-width: 769px){
+
+    .topo .barra-pesquisa {
+        width: 768px;
+        height: 72px;
+    }
+
+    .barra-pesquisa .logo {
+        width: 100px;
+        margin: 22px 0 0 32px;
+    }
+
+    .barra-pesquisa .pesquisa {
+        margin: 0;
+        width: 272px;
+        left: 164px;
+        top: 16px;
+    }
+
+    .barra-pesquisa .img-lupa {
+        top: 27px;
+        left: 405px;
+    }
+
+    .barra-pesquisa button {
+        width: 166px;
+        height: 40px;
+        margin: 16px 32px 0 0;
+    }
+
+    .banner-promo img {
+        width: 768px;
+        margin: 0;
+    }
+
+    .banner-promo h1 {
+        left: 32px;
+    }
+
+    .banner-promo h2 {
+        left: 32px;
+    }
+
+    .banner-promo .btn-ver-consoles {
+        top: 280px;
+        left: 32px;
+        width: 119px;
+        height: 40px;
+    }
+}  
+
+@media screen and (max-width: 426px){
+    
+    .topo .barra-pesquisa {
+        width: 425px;
+    }
+
+    .barra-pesquisa .logo {
+        width: 100px;
+        margin: 22px 0 0 16px;
+    }
+
+    .barra-pesquisa .pesquisa {
+        display: none;
+    }
+
+    .barra-pesquisa .img-lupa {
+        display: none;
+    }
+
+    .barra-pesquisa .img-lupaMobile {
+        display: inline;
+    }
+
+    .barra-pesquisa .btn-login {
+        position: absolute;
+        left: 235px;
+        width: 133px;
+        height: 40px;
+        margin: 16px 0 0 0;
+    }
+
+    .banner-promo h1 {
+        top: 90px;
+        width: 328px;
+        height: 26px;
+        font-size: 22px;
+        left: 16px;
+    }
+
+    .banner-promo h2 {
+        width: 328px;
+        height: 16px;
+        font-size: 14px;
+        top: 140px;
+        left: 16px;
+    }
+
+    .banner-promo .btn-ver-consoles {
+        top: 175px;
+        left: 16px;
+        height: 40px;
+    }
+
+    .banner-promo img {
+        width: 425px;
+        margin: 0;
+        /* width: 768px; */
+        /* height: 352px; */
+    }
+}   
