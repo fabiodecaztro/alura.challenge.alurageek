@@ -113,7 +113,7 @@ body .topo {
 }
 
 /*MAIN*/
-#secao .cabecalho {
+.secao .cabecalho {
     height: 38px;
     width: 1133px;
     margin: 64px auto 16px auto;
@@ -128,7 +128,7 @@ body .topo {
     color: #464646;
 }
 
-.cabecalho button {
+.cabecalho .btn-ver-tudo {
     float: right;
     width: 98px;
     height: 24px;
@@ -143,23 +143,23 @@ body .topo {
 }
 
 /*PESSOAL**********************/
-.cabecalho button:hover {
+.cabecalho .btn-ver-tudo:hover {
     text-decoration: underline;
 }
 /******************************/
 
-button img {
+.btn-ver-tudo img {
     position: relative;
     top: 2px;
     float: right;
 }
 
-#secao .linha-produto {
+.secao .linha-produto {
     width: 1133px;
     margin: 0 auto;
 }
 
-.linha-produto #retorno {
+.linha-produto #produto1 {
     margin-left: 0;
 }
 
@@ -215,7 +215,7 @@ footer .rodape {
     background: #eaf2fd;
 }
 
-footer .contato {
+.rodape .contato {
     position: absolute;
     left: 152px;
     height: 240px;

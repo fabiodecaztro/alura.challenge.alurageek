@@ -1,5 +1,9 @@
 @media screen and (max-width: 769px){
 
+    body .topo {
+        height: 424px;
+    }
+
     .topo .barra-pesquisa {
         width: 768px;
         height: 72px;
@@ -22,7 +26,7 @@
         left: 405px;
     }
 
-    .barra-pesquisa button {
+    .barra-pesquisa .btn-login {
         width: 166px;
         height: 40px;
         margin: 16px 32px 0 0;
@@ -47,12 +51,87 @@
         width: 119px;
         height: 40px;
     }
-}  
 
-@media screen and (max-width: 426px){
+    /*______________________________________________*/
+
+    main .secao {
+        margin-left: 36px;
+    }
+
+    .secao .cabecalho {
+        width: 732px;
+        margin-top: 32px;
+    }
+
+    .cabecalho .btn-ver-tudo {
+        margin: 7px 32px 0 0;
+    }
+
+    .linha-produto .produto {
+        width: 164px;
+    }
+
+    .produto img {
+        width: 164px;
+        height: 174px;
+    }
+
+    .linha-produto #produto5, #produto6 {
+        display: none;
+    }
+
+    footer .rodape {
+        width: 768px;
+        height: 364px;
+        margin-top: 32px;
+    }
+
+    .rodape .contato {
+        left: 0;
+        width: 768px;
+        height: 364px;
+    }
+
+    .contato img {
+        margin: 32px 0 0 32px;
+    }
+
+    .contato .links-internos {
+        top: 98px;
+        left: 32px;
+    }
+
+    .contato .fale-conosco {
+        position: initial;
+        float: right;
+        margin: 32px 32px 0 0;
+        width: 434px;
+        height: 229px;
+    }
+
+    .fale-conosco .grupo-nome {
+        width: 434px;
+    }
+
+    .fale-conosco .grupo-msg{
+        width: 434px;
+    }
+
+    .fale-conosco .submit-enviar {
+        width: 151px;
+        height: 40px;
+    }
+/*__________________________________________________________________________________*/
+
+@media screen and (max-width: 361px){
+
+    body .topo {
+        height: 264px;
+    }
     
     .topo .barra-pesquisa {
-        width: 425px;
+        width: 360px;
+        height: 72px;
     }
 
     .barra-pesquisa .logo {
@@ -74,14 +153,14 @@
 
     .barra-pesquisa .btn-login {
         position: absolute;
-        left: 235px;
+        left: 151px;
         width: 133px;
         height: 40px;
         margin: 16px 0 0 0;
     }
 
     .banner-promo h1 {
-        top: 90px;
+        top: 78px;
         width: 328px;
         height: 26px;
         font-size: 22px;
@@ -92,20 +171,113 @@
         width: 328px;
         height: 16px;
         font-size: 14px;
-        top: 140px;
+        top: 112px;
         left: 16px;
     }
 
     .banner-promo .btn-ver-consoles {
-        top: 175px;
+        top: 136px;
         left: 16px;
         height: 40px;
     }
 
     .banner-promo img {
-        width: 425px;
+        width: 360px;
         margin: 0;
-        /* width: 768px; */
-        /* height: 352px; */
     }
-}   
+
+
+
+
+
+
+    main .secao {
+        margin-left: 16px;
+    }
+
+    .secao .cabecalho {
+        width: 360px;
+        margin: 16px 0;
+        height: 26px;
+    }
+
+    .cabecalho h2 {
+        font-size: 26px;
+    }
+
+    .cabecalho .btn-ver-tudo {
+        margin: 7px 32px 0 0;
+    }
+_______________________________parou aqui___________________________________
+    .secao .linha-produto {
+            display: inline;
+        width: 328px;
+        height: 514px;
+                background: indianred;
+
+    }
+
+    .linha-produto .produto {
+    
+        height: 249px;
+        margin: 0;
+    }
+
+    .produto img {
+        width: 156px;
+        height: 174px;
+    }
+
+/*    .linha-produto #produto1, #produto3 {
+        padding-left: 6px;
+    }
+
+    .linha-produto #produto2, #produto4 {
+        padding-right: 6px;
+    }*/
+
+    .linha-produto #produto5, #produto6 {
+        display: none;
+    }
+
+    footer .rodape {
+        width: 768px;
+        height: 364px;
+        margin-top: 32px;
+    }
+
+    .rodape .contato {
+        left: 0;
+        width: 768px;
+        height: 364px;
+    }
+
+    .contato img {
+        margin: 32px 0 0 32px;
+    }
+
+    .contato .links-internos {
+        top: 98px;
+        left: 32px;
+    }
+
+    .contato .fale-conosco {
+        position: initial;
+        float: right;
+        margin: 32px 32px 0 0;
+        width: 434px;
+        height: 229px;
+    }
+
+    .fale-conosco .grupo-nome {
+        width: 434px;
+    }
+
+    .fale-conosco .grupo-msg{
+        width: 434px;
+    }
+
+    .fale-conosco .submit-enviar {
+        width: 151px;
+        height: 40px;
+    }
