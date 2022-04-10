@@ -107,9 +107,13 @@ body .topo {
     height: 51px;
     padding: 0;
     font-size: 16px;
-    color: #FFFFFF;
     border: transparent;
     background: #2A7AE4;
+}
+
+.banner-promo a {
+    text-decoration: none;
+    color: #FFFFFF;
 }
 
 /*MAIN*/
@@ -134,7 +138,6 @@ body .topo {
     height: 24px;
     margin-top: 7px;
     display: inline;
-    color: #2a7ae4;
     font-size: 16px;
     font-weight: bold;
     border: transparent;
@@ -152,6 +155,12 @@ body .topo {
     position: relative;
     top: 2px;
     float: right;
+}
+
+.secao a {
+    text-decoration: none;
+    color: #2a7ae4;
+
 }
 
 .secao .linha-produto {
@@ -190,14 +199,19 @@ body .topo {
     font-weight: bold;
 }
 
-.produto a {
+.produto .btn-ver-produto {
     position: absolute;
     top: 233px;
     left: 0;
-    color: #2A7AE4;
     height: 19px;
+    border: transparent;
+}
+
+.produto a {
+    color: #2A7AE4;
     font-weight: bold;
     text-decoration: none;
+    font-size: 16px;
 }
 
 /*PESSOAL**********************/
@@ -209,16 +223,20 @@ body .topo {
 /*FOOTER*/
 footer .rodape {
     position: relative;
-    width: 1440px;
+    width: auto;
     height: 368px;
     margin: 64px auto 0 auto;
     background: #eaf2fd;
 }
 
 .rodape .contato {
-    position: absolute;
-    left: 152px;
-    height: 240px;
+    position: relative;
+    /* display: inline-block; */
+    width: 1440px;
+    margin: 0 auto;
+    /* position: absolute;
+    left: 152px; */
+    height: 368px;
 }
 
 .contato img {
@@ -253,7 +271,6 @@ footer .rodape {
     left: 576px;
     width: 560px;
     height: 240px;
-
 }
 
 .fale-conosco p {
@@ -316,7 +333,7 @@ footer .rodape {
 .grupo-msg #textarea-msg {
     height: 45px;
     resize: none;
-}
+} 
 
 .fale-conosco .submit-enviar {
     position: absolute;
@@ -329,6 +346,11 @@ footer .rodape {
     background: #2a7ae4;
     border: transparent;
     padding: 0;
+}
+
+.fale-conosco #caracteres {
+    margin: 175px 0 0 360px;
+    display: flex;
 }
 
 footer .desenvolvedor {

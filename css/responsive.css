@@ -121,6 +121,11 @@
         width: 151px;
         height: 40px;
     }
+
+    .fale-conosco #caracteres {
+        margin: 140px 0 0 230px;
+        display: flex;
+    }
 /*__________________________________________________________________________________*/
 
 @media screen and (max-width: 361px){
@@ -208,7 +213,7 @@
     .cabecalho .btn-ver-tudo {
         margin: 7px 32px 0 0;
     }
-_______________________________parou aqui___________________________________
+/* _______________________________parou aqui___________________________________ */
     .secao .linha-produto {
             display: inline;
         width: 328px;
