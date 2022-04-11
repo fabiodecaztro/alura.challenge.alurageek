@@ -1,0 +1,86 @@
+body {
+    font-family: Raleway, sans-serif;
+    background: #f5f5f5;
+}
+
+.topo .area-login {
+    height: 473px;
+}
+.area-login div {
+    position: relative;
+    margin: 91px auto;
+    width: 423px;
+    height: 291px;
+}
+
+.area-login label {
+    display: inline-block;
+    margin: 0 0 25px 150px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #464646;
+}
+
+.area-login input {
+    display: inline-block;
+    padding: 0;
+    width: 423px;
+    height: 63px;
+    border: transparent;
+    border-radius: 4px;
+    border-bottom: 1px solid #c8c8c8;
+    text-indent: 1em;
+    font-size: 16px;
+    margin-bottom: 25px;
+    font-family: Raleway, sans-serif;
+}
+
+.area-login button {
+    width: 423px;
+    height: 62px;
+    padding: 0;
+    font-size: 18px;
+    border: transparent;
+    background: #2A7AE4;
+    color: #FFFFFF;
+    font-family: Raleway, sans-serif;
+}
+
+.area-login span {
+    position: absolute;
+    font-size: 13px;
+    color: #ff0000;
+    left: 15px;
+}
+
+.area-login .alerta-email {
+    top: 109px;
+    /* left: 15px; */
+    display: none;
+}
+
+.area-login .alerta-senha {
+    top: 198px;
+    /* left: 10px; */
+    display: none;
+}
+
+.area-login a {
+    /* position: absolute; */
+    /* top: 64px; */
+    /* left: 288px; */
+    /* display: grid; */
+    /* align-content: space-between; */
+    /* width: 176px; */
+    /* height: 234px; */
+    font-size: 16px;
+    text-decoration: none;
+    color: #464646;
+    display: block;
+    margin-top: 10px;
+}
+
+.area-login a:hover {
+    color: #2a7ae4;
+    text-decoration: underline;
+}
