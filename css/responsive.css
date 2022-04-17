@@ -1,7 +1,7 @@
 @media screen and (max-width: 769px){
 
     body .topo {
-        height: 424px;
+        /* height: 424px; */
     }
 
     .topo .barra-pesquisa {
@@ -30,6 +30,7 @@
         width: 166px;
         height: 40px;
         margin: 16px 32px 0 0;
+        padding: 0;
     }
 
     .banner-promo img {
@@ -128,14 +129,14 @@
     }
 /*__________________________________________________________________________________*/
 
-@media screen and (max-width: 361px){
+@media screen and (max-width: 426px){
 
     body .topo {
-        height: 264px;
+        /* min-height: 264px; */
     }
     
     .topo .barra-pesquisa {
-        width: 360px;
+        width: 425px;
         height: 72px;
     }
 

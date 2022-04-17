@@ -1,4 +1,5 @@
 body {
+    
     width: auto;
     /* padding: 10px 10px; */
     font-family: Raleway, sans-serif;
@@ -10,7 +11,7 @@ body {
 body .topo {
     position: relative;
     margin: 0 auto;
-    height: 467px;
+    /* height: 467px; */
     background: #FFFFFF
 }
 
@@ -54,6 +55,33 @@ body .topo {
     float: right;
     margin: 27px 16px 0 0;
 }
+
+.barra-pesquisa .area-logado {
+    /* position: relative; */
+    display: inline;
+    background: aqua;
+    width: 50px;
+    height: 60px;
+
+}
+
+.barra-pesquisa span {
+    /* position: absolute; */
+    /* display: grid; */
+    color: #464646;
+    font-size: 16px;
+}
+
+/* .barra-pesquisa .nivel-acesso {
+    top: 35px;
+    left: 860px;
+}
+
+.barra-pesquisa .usuario {
+    top: 70px;
+    left: 860px;
+} */
+
 
 .barra-pesquisa .btn-login {
     padding: 0;
@@ -232,7 +260,7 @@ footer .rodape {
 .rodape .contato {
     position: relative;
     /* display: inline-block; */
-    width: 1440px;
+    width: 1136px;
     margin: 0 auto;
     /* position: absolute;
     left: 152px; */
