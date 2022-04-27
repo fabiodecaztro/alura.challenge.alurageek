@@ -1,5 +1,5 @@
 body {
-    
+
     width: auto;
     /* padding: 10px 10px; */
     font-family: Raleway, sans-serif;
@@ -10,13 +10,14 @@ body {
 /*HEADER*/
 body .topo {
     position: relative;
+    width: auto;
     margin: 0 auto;
     /* height: 467px; */
     background: #FFFFFF
 }
 
 .topo .barra-pesquisa {
-         position: relative; 
+    position: relative;
 
     width: 1136px;
     left: auto;
@@ -98,13 +99,13 @@ body .topo {
 .banner-promo {
     position: relative;
     margin: 0 auto;
-    width: 1440px;
+    width: auto;
 }
 
 .banner-promo img {
     position: relative;
-    display: block;
-    margin: 0 auto;    
+    display: inline-block;
+    margin: 0 auto;
 }
 
 .banner-promo h1 {
@@ -124,7 +125,7 @@ body .topo {
     left: 138px;
     font-size: 22px;
     font-weight: bold;
-    color: #FFFFFF;   
+    color: #FFFFFF;
 }
 
 .banner-promo .btn-ver-consoles {
@@ -177,6 +178,7 @@ body .topo {
 .cabecalho .btn-ver-tudo:hover {
     text-decoration: underline;
 }
+
 /******************************/
 
 .btn-ver-tudo img {
@@ -193,25 +195,25 @@ body .topo {
 
 .secao .linha-produto {
     width: 1133px;
-    margin: 0 auto;
+    /* margin: 0 ; */
 }
 
-.linha-produto #produto1 {
-    margin-left: 0;
-}
+
 
 .linha-produto .produto {
     position: relative;
     display: inline-block;
-    width: 176px;
+    width: 156px;
     height: 252px;
-    margin-left: 10px;
+    margin: 16px 8px;
+
 }
 
 .produto .p {
     width: 176px;
     color: #464646;
 }
+
 .produto .id-produto {
     position: absolute;
     top: 182px;
@@ -246,6 +248,7 @@ body .topo {
 .produto a:hover {
     text-decoration: underline;
 }
+
 /******************************/
 
 /*FOOTER*/
@@ -286,11 +289,13 @@ footer .rodape {
     text-decoration: none;
     color: #464646;
 }
+
 /*PESSOAL**********************/
 .links-internos a:hover {
     color: #2a7ae4;
     text-decoration: underline;
 }
+
 /******************************/
 
 .contato .fale-conosco {
@@ -321,7 +326,7 @@ footer .rodape {
     position: absolute;
     top: 8px;
     left: 12px;
-    width: 536px;
+    width: auto;
     height: 16px;
     font-size: 12px;
     font-weight: 100;
@@ -344,7 +349,7 @@ footer .rodape {
     color: #464646;
 }
 
-.fale-conosco .grupo-msg{
+.fale-conosco .grupo-msg {
     position: absolute;
     top: 99px;
     width: 560px;
@@ -358,10 +363,10 @@ footer .rodape {
     font-size: 16px;
 }
 
-.grupo-msg #textarea-msg {
+.grupo-msg .textarea-msg {
     height: 45px;
     resize: none;
-} 
+}
 
 .fale-conosco .submit-enviar {
     position: absolute;

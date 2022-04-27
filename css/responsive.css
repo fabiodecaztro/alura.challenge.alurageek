@@ -1,12 +1,12 @@
-@media screen and (max-width: 769px){
-
-    body .topo {
-        /* height: 424px; */
+@media screen and (max-width: 768px) {
+    body {
+        width: 768px;
     }
 
     .topo .barra-pesquisa {
         width: 768px;
         height: 72px;
+        background: darkkhaki;
     }
 
     .barra-pesquisa .logo {
@@ -53,14 +53,12 @@
         height: 40px;
     }
 
-    /*______________________________________________*/
-
     main .secao {
         margin-left: 36px;
     }
 
     .secao .cabecalho {
-        width: 732px;
+        width: 703px;
         margin-top: 32px;
     }
 
@@ -68,8 +66,14 @@
         margin: 7px 32px 0 0;
     }
 
+    .secao .linha-produto {
+        width: auto;
+    }
+
     .linha-produto .produto {
         width: 164px;
+        margin-left: 5px;
+        margin-right: 5px;
     }
 
     .produto img {
@@ -77,7 +81,8 @@
         height: 174px;
     }
 
-    .linha-produto #produto5, #produto6 {
+    .linha-produto .produto5,
+    .linha-produto .produto6 {
         display: none;
     }
 
@@ -110,12 +115,13 @@
         height: 229px;
     }
 
-    .fale-conosco .grupo-nome {
+    .fale-conosco .grupo-nome,
+    .fale-conosco .grupo-msg {
         width: 434px;
     }
 
-    .fale-conosco .grupo-msg{
-        width: 434px;
+    .fale-conosco .entrada-info {
+        width: 410px;
     }
 
     .fale-conosco .submit-enviar {
@@ -127,163 +133,146 @@
         margin: 140px 0 0 230px;
         display: flex;
     }
-/*__________________________________________________________________________________*/
 
-@media screen and (max-width: 426px){
+    @media screen and (max-width: 426px) {
 
-    body .topo {
-        /* min-height: 264px; */
-    }
-    
-    .topo .barra-pesquisa {
-        width: 425px;
-        height: 72px;
-    }
+        body {
+            width: 425px;
+        }
 
-    .barra-pesquisa .logo {
-        width: 100px;
-        margin: 22px 0 0 16px;
-    }
+        .topo .barra-pesquisa {
+            width: 425px;
+            height: 72px;
+            background: rgb(145, 47, 47);
+        }
 
-    .barra-pesquisa .pesquisa {
-        display: none;
-    }
+        .barra-pesquisa .logo {
+            width: 100px;
+            margin: 22px 0 0 16px;
+        }
 
-    .barra-pesquisa .img-lupa {
-        display: none;
-    }
+        .barra-pesquisa .pesquisa {
+            display: none;
+        }
 
-    .barra-pesquisa .img-lupaMobile {
-        display: inline;
-    }
+        .barra-pesquisa .img-lupa {
+            display: none;
+        }
 
-    .barra-pesquisa .btn-login {
-        position: absolute;
-        left: 151px;
-        width: 133px;
-        height: 40px;
-        margin: 16px 0 0 0;
-    }
-
-    .banner-promo h1 {
-        top: 78px;
-        width: 328px;
-        height: 26px;
-        font-size: 22px;
-        left: 16px;
-    }
-
-    .banner-promo h2 {
-        width: 328px;
-        height: 16px;
-        font-size: 14px;
-        top: 112px;
-        left: 16px;
-    }
-
-    .banner-promo .btn-ver-consoles {
-        top: 136px;
-        left: 16px;
-        height: 40px;
-    }
-
-    .banner-promo img {
-        width: 360px;
-        margin: 0;
-    }
-
-
-
-
-
-
-    main .secao {
-        margin-left: 16px;
-    }
-
-    .secao .cabecalho {
-        width: 360px;
-        margin: 16px 0;
-        height: 26px;
-    }
-
-    .cabecalho h2 {
-        font-size: 26px;
-    }
-
-    .cabecalho .btn-ver-tudo {
-        margin: 7px 32px 0 0;
-    }
-/* _______________________________parou aqui___________________________________ */
-    .secao .linha-produto {
+        .barra-pesquisa .img-lupaMobile {
             display: inline;
-        width: 328px;
-        height: 514px;
-                background: indianred;
+        }
 
+        .barra-pesquisa .btn-login {
+            position: absolute;
+            left: 151px;
+            width: 133px;
+            height: 40px;
+            margin: 16px 0 0 0;
+        }
+
+        .banner-promo h1 {
+            top: 78px;
+            width: 328px;
+            height: 26px;
+            font-size: 22px;
+            left: 16px;
+        }
+
+        .banner-promo h2 {
+            width: 328px;
+            height: 16px;
+            font-size: 14px;
+            top: 112px;
+            left: 16px;
+        }
+
+        .banner-promo .btn-ver-consoles {
+            top: 136px;
+            left: 16px;
+            height: 40px;
+        }
+
+        .banner-promo img {
+            width: 425px;
+            margin: 0;
+        }
+
+        main .secao {
+            width: 393px;
+            height: auto;
+            margin: 0 auto;
+        }
+
+        .secao .cabecalho {
+            width: 393px;
+            margin: 16px 0;
+            height: 26px;
+        }
+
+        .cabecalho h2 {
+            font-size: 26px;
+        }
+
+        .cabecalho .btn-ver-tudo {
+            margin: 7px;
+        }
+
+        .secao .linha-produto {
+            display: inline-block;
+            width: auto;
+            padding-left: 16px;
+        }
+
+        .linha-produto .produto {
+            margin-left: 8px;
+            margin-right: 8px
+        }
+
+        .produto img {
+            height: 174px;
+        }
+
+        footer .rodape {
+            width: 768px;
+            height: 364px;
+            margin-top: 32px;
+        }
+
+        .rodape .contato {
+            left: 0;
+            width: 768px;
+            height: 364px;
+        }
+
+        .contato img {
+            margin: 32px 0 0 32px;
+        }
+
+        .contato .links-internos {
+            top: 98px;
+            left: 32px;
+        }
+
+        .contato .fale-conosco {
+            position: initial;
+            float: right;
+            margin: 32px 32px 0 0;
+            width: 434px;
+            height: 229px;
+        }
+
+        .fale-conosco .grupo-nome {
+            width: 434px;
+        }
+
+        .fale-conosco .grupo-msg {
+            width: 434px;
+        }
+
+        .fale-conosco .submit-enviar {
+            width: 151px;
+            height: 40px;
+        }
     }
-
-    .linha-produto .produto {
-    
-        height: 249px;
-        margin: 0;
-    }
-
-    .produto img {
-        width: 156px;
-        height: 174px;
-    }
-
-/*    .linha-produto #produto1, #produto3 {
-        padding-left: 6px;
-    }
-
-    .linha-produto #produto2, #produto4 {
-        padding-right: 6px;
-    }*/
-
-    .linha-produto #produto5, #produto6 {
-        display: none;
-    }
-
-    footer .rodape {
-        width: 768px;
-        height: 364px;
-        margin-top: 32px;
-    }
-
-    .rodape .contato {
-        left: 0;
-        width: 768px;
-        height: 364px;
-    }
-
-    .contato img {
-        margin: 32px 0 0 32px;
-    }
-
-    .contato .links-internos {
-        top: 98px;
-        left: 32px;
-    }
-
-    .contato .fale-conosco {
-        position: initial;
-        float: right;
-        margin: 32px 32px 0 0;
-        width: 434px;
-        height: 229px;
-    }
-
-    .fale-conosco .grupo-nome {
-        width: 434px;
-    }
-
-    .fale-conosco .grupo-msg{
-        width: 434px;
-    }
-
-    .fale-conosco .submit-enviar {
-        width: 151px;
-        height: 40px;
-    }
+}

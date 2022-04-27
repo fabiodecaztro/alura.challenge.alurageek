@@ -1,11 +1,11 @@
 .area-produto {
     /* position: relative; */
 }
+
 .area-produto .adiciona-produto {
     margin: 64px auto;
     width: 559px;
     height: 515px;
-    background: khaki;
 }
 
 .adiciona-produto h2 {
@@ -16,7 +16,7 @@
 
 .adiciona-produto section {
     position: relative;
-    
+
     margin: 16px 0;
 }
 
@@ -42,6 +42,7 @@
     display: block;
     margin: 32px auto 16px auto;
 }
+
 .entrada-imagem .msg {
     margin: 0 auto;
     width: 218px;
@@ -57,7 +58,7 @@
     top: 66px;
     left: 290px;
     display: inline-block;
-
+ 
     font-size: 16px;
     color: #464646;
 }
@@ -75,4 +76,70 @@
     /* margin: 66px 0 0 0; */
     width: 239px;
     height: 51px;
+}
+
+.adiciona-produto .grupo-nome-produto, .grupo-preco, .grupo-descricao{
+    /* position: absolute; */
+    margin: 16px 0;
+    top: 27px;
+    width: 559px;
+    height: 56px;
+    background: #FFFFFF;
+    border-radius: 4px;
+    border-bottom: 1px solid #c8c8c8;
+}
+
+.adiciona-produto label{/*.label-identificacao {*/
+    /* position: absolute; */
+    top: 8px;
+    left: 12px;
+    width: 536px;
+    height: 16px;
+    font-size: 12px;
+    font-weight: 100;
+    color: #a2a2a2;
+    display: flex;
+    align-items: center;
+    text-indent: 16px;
+}
+
+.adiciona-produto input, textarea{/*.entrada-info {*/
+    /* position: absolute; */
+    top: 28px;
+    left: 12px;
+    width: 536px;
+    height: 20px;
+    background: transparent;
+    border: transparent;
+    outline: 0;
+    padding: 0;
+    font-family: Raleway, sans-serif;
+    color: #464646;
+    text-indent:16px;
+
+}
+
+.adiciona-produto .grupo-descricao{
+    height: 82px;    
+}
+
+.adiciona-produto #textarea-descricao {
+    width: 540px;
+    margin-left: 16px;
+    height: 60px;
+    resize: none;
+    text-indent: 0;
+    text-align: center;
+}
+
+.adiciona-produto .submit-enviar {
+    top: 189px;
+    width: 559px;
+    height: 51px;
+    font-family: Raleway, sans-serif;
+    font-size: 16px;
+    color: #FFFFFF;
+    background: #2a7ae4;
+    border: transparent;
+    padding: 0;
 }

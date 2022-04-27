@@ -9,7 +9,7 @@
     <link rel="stylesheet" type="text/css" href="css/reset.css">
     <link rel="stylesheet" type="text/css" href="css/style2.css">
     <link rel="stylesheet" type="text/css" href="css/responsive.css">
-    <link rel="stylesheet" type="text/css" href="css/login.css">
+    <link rel="stylesheet" type="text/css" href="css/produtos.css">
 
 </head>
 
@@ -24,17 +24,40 @@
         </section>
     </header>
 
-    <main class="area-login">
-        <div class="login-filhos">
-            <label for="">Iniciar Sessão</label>
-            <input id="login-email" type="email" placeholder="Escreva seu email">
-            <span class="alerta-email">Email não corresponde</span>
-            <input id="login-senha" type="password" placeholder="Escreva sua senha">
-            <span class="alerta-senha">Senha não corresponde</span>
-            <a class="btn-login"><button onclick="validaLogin()">Entrar</button></a>
-            <a href="novo-usuario.html">Quero me cadastrar</a>
-            <a href="redefinir-senha.html">Esqueci minha senha</a>
+    <main class="area-produto">
+        <div class="adiciona-produto">
+
+            <h2>Adicionar novo produto</h2>
+
+            <section>
+                <div class="entrada-imagem">
+                    <img src="img/img_upload.png" alt="">
+                    <p class="msg">Arraste para adicionar uma imagem para o produto</p>
+                </div>
+                <span>Ou</span>
+                <a href=""><button class="btn-upload">Procure no seu computador</button></a>
+            </section>
+
+            <div class="grupo-nome-produto">
+                <label class="label-identificacao" for="input-nome-produto">Nome do produto</label>
+                <input id="input-nome-produto" class="entrada-info" type="text" name="">
+            </div>
+            <div class="grupo-preco">
+                <label class="label-identificacao" for="input-preco">Preço do produto</label>
+                <input id="input-preco" class="entrada-info" type="text" name="">
+            </div>
+            <div class="grupo-descricao">
+                <label class="label-identificacao" for="input-descricao">Descrição do produto</label>
+                <textarea id="textarea-descricao" class="entrada-info" type="text" name=""></textarea>
+            </div>
+
+            <button class="submit-enviar" type="button" name="" value="" onclick="validacao()">
+                Adicionar produto
+            </button>
+
         </div>
+
+
     </main>
 
     <footer>
@@ -59,7 +82,7 @@
                     <div class="grupo-msg">
                         <label id="label-msg" class="label-identificacao" for="textarea-msg">Escreva sua
                             mensagem</label>
-                        <textarea id="textarea-msg" class="entrada-info" type="text" rows="1" cols="1"
+                        <textarea id="textarea-msg" class="entrada-info textarea-msg" type="text" rows="1" cols="1"
                             oninput="contaCaracter()" maxlength="200"></textarea>
                     </div>
 
